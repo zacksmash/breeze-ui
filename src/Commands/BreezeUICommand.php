@@ -20,7 +20,7 @@ class BreezeUICommand extends Command
         $this->updateWebpackUrl();
 
         $this->info('UI scaffolding installed successfully.');
-        $this->comment('Please execute the "npm install && npm run dev" command to build your assets.');
+        $this->comment('Please execute the "php artisan migrate" setup your database tables.');
     }
 
     protected function publishAssets()
